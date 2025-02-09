@@ -1,0 +1,126 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#product-info {
+    display: flex;
+    width:100%;
+    margin: 0 auto
+ 
+    
+}
+.item-info-parent {
+    order: 2;
+    width: 50%;
+   margin-right: 100px;
+  margin-top: 50px;
+}
+.head{
+    font-size: 30px;
+   
+}
+.item-image-main img {
+    width: 70%;
+    height: auto;
+    margin-top: 70px;
+    margin-left: 80px;
+    border: 2px solid rgba(194, 194, 194, 0.829) ;
+}
+.star-rating {
+    width: 70%;
+    color: gray;
+    font-size: 24px;
+    border-bottom: 0.4px solid rgba(194, 194, 194, 0.829);
+}
+
+.star-rating span {
+    color: gold;
+}
+#price {
+    color: rgb(168, 14, 14);
+    font-size: 23px;
+}
+.description ul {
+    padding-left: 15px;
+    font-size: 20px;
+    line-height: 2rem;
+}
+.color{
+   font-size: 20px;
+}
+/* Responsive design */
+@media (max-width: 768px) {
+    #product-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .item-image-main img {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .item-info-parent {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .star-rating {
+        width: 100%;
+        font-size: 30px;
+    }
+    #price {
+        font-size: 25px;
+    }
+    .description ul {
+        font-size: 20px;
+        line-height: 1.9rem;
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .item-image-main img {
+        margin-top: 10px;
+    }
+    .item-info-parent {
+        margin-top: 10px;
+    }
+    .star-rating {
+        font-size: 20px;
+    }
+    #price {
+        font-size: 20px;
+    }
+    .description ul {
+        font-size: 20px;
+        line-height: 1.8rem;
+    }
+}
+.btn{
+    font-size: 20px;
+    padding: 15px;
+    background-color: #2d2d3f;
+    color: white;
+    margin-right: 60px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btnn{
+    font-size: 20px;
+    padding: 15px;
+    background-color: #2d2d3f;
+    color: white;
+ border-radius: 12px;
+ cursor: pointer;
+}
+.btn:hover{
+    font-size: 22px;
+    background-color: #e63946;
+    transition: ease-in-out;
+}
+.btnn:hover{
+    font-size: 22px;
+    background-color: #e63946;
+    transition: ease-in-out;
+}
